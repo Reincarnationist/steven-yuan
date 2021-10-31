@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import BGA from './components/BackGroundAnimation/bg'
+import Header from './components/Header/header'
+import Terminal from './components/Terminal/terminal';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+class App extends React.Component {
+  render(){
+    return (
+      <div className="App" >
+        <BGA />
+        <div style={{display: 'flex', flexDirection: 'column'}}>
+          <Header />
+          <Terminal />
+          </div>
+        
+      </div>
+    );
+  }
+  }
+  
 
 export default App;

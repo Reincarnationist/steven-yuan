@@ -1,0 +1,143 @@
+@keyframes UpDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(30px);
+    }
+  }
+@keyframes UpDownWide {
+from {
+    transform: translateY(0);
+}
+to {
+    transform: translateY(200px);
+}
+}
+
+.UpDownAnimation > svg {
+    animation-name: UpDown;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.UpDownSlowAnimation > svg {
+    animation-name: UpDown;
+    animation-duration: 11s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.UpDownWideAnimation > svg {
+    animation-name: UpDownWide;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.poly {
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -500;
+}
+  
+.poly1 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #03fcdb; 
+    z-index: -500;
+    width: 12rem;
+    left: 10%;
+    top: 20%;
+    filter: blur(8px) saturate(160%);
+  }
+
+.poly2 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #2c4978;
+    z-index: -500;
+    width: 12rem;
+    left: 60%;
+    top: 70%;
+    filter: blur(8px) saturate(160%);
+}
+.poly3 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #872670;
+    z-index: -500;
+    width: 3rem;
+    left: 20%;
+    top: 50%;
+    filter: blur(8px) saturate(160%);
+}
+.poly4 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #1bb563;
+    z-index: -500;
+    width: 5rem;
+    left: 70%;
+    top: 20%;
+    filter: blur(8px) saturate(160%);
+}
+.poly5 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #d4eb09;
+    z-index: -500;
+    width: 10rem;
+    left: 50%;
+    top: 10%;
+    filter: blur(8px) saturate(160%);
+}
+.poly6 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #28a2b5;
+    z-index: -500;
+    width: 2rem;
+    left: 10%;
+    top: 60%;
+    filter: blur(8px) saturate(160%);
+}
+.poly7 {
+    position: absolute;
+    stroke: currentcolor;
+    fill: none;
+    display: block;
+    overflow: visible;
+    color: #09000d;
+    z-index: -500;
+    width: 4rem;
+    left: 40%;
+    top: 40%;
+    filter: blur(8px) saturate(160%);
+}

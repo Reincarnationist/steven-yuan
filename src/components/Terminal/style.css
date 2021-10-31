@@ -1,0 +1,119 @@
+p{
+    color: #718096;
+}
+
+.terminal {
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 60vw;
+    max-width: 60vw;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    
+}
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 36px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.mac_icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.25rem;
+}
+.icon1 {
+    background: #f56565;
+    height: 12px;
+    width: 12px;
+    border-radius: 999px;
+}
+.icon2 {
+    background: #ed8936;
+    height: 12px;
+    width: 12px;
+    border-radius: 999px;
+}
+.icon3 {
+    background: #2bae66;
+    height: 12px;
+    width: 12px;
+    border-radius: 999px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    height: 36px;
+    width: 100%;
+    position: absolute;
+}
+.main {
+
+    display: flex;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: rgba(0, 0, 0, 0.15);
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    min-height: 500px;
+}
+
+.main_stack{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+
+.indicator {
+    margin-right: 0.5rem;
+    color: #3a73df;
+    font-weight: 700;
+}
+
+.education{
+    animation: 1.6s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+.location{
+    animation: 3.6s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+.skills{
+    animation: 5.6s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+.interests{
+    animation: 7.6s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+.contact{
+    animation: 9.6s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+@keyframes fadeIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
