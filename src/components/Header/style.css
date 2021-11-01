@@ -3,11 +3,10 @@
     background: #fafafa;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     position: relative;
     padding: 20px;
     backdrop-filter: saturate(180%) blur(5px);
-    z-index: 10;
 }
 
 

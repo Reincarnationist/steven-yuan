@@ -2,30 +2,32 @@ import React from 'react'
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCat } from '@fortawesome/free-solid-svg-icons'
-
+import { Link} from "react-router-dom";
 class Header extends React.Component {
     render(){
         return (
             <header className='header'>
                 <span className='span_wrapper'>
-                    <a href='/' style={{textDecoration: "none"}}>
+                    
+                    <Link to='/' style={{textDecoration: "none"}}>
                         <div className='home'>
                             <span style={{marginRight: "5px"}}>&gt;</span>
                             <span>$ cd ~/home/</span>
                             <span className="home_cursor"> </span>
                             </div>
-                        </a>
+                        </Link>
+                        
                     <span className='header_right'>
                         <nav className='menu'>
                             <ul className='menu_inner'>
-                                <li><a href="www.google.ca">About Me</a></li>
-                                <li><a href="www.google.ca">Projects</a></li>
-                                <li><a href="www.google.ca">Contact</a></li>
+                                <li><Link to="/about">About Me</Link></li>
+                                <li><Link to="/projects">Projects</Link></li>
+                                <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </nav>
-                            <a title="My cats' photos" href='/cats' className='cat'><FontAwesomeIcon icon={faCat} /></a>
-                        
-                        </span>
+                            <Link title="My cats' photos" to="/cats" className="cat"><FontAwesomeIcon icon={faCat} /></Link>
+                    </span>
+                    
                 </span>
                     
             </header>

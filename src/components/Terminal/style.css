@@ -5,13 +5,14 @@ p{
 .terminal {
     display: flex;
     flex-direction: column;
+    flex: 1;
     min-height: 300px;
     min-width: 60vw;
     max-width: 60vw;
     align-items: center;
     margin: 0 auto;
     margin-top: 5%;
-    
+    outline-width: 0;
 }
 .header_container {
     display: flex;
