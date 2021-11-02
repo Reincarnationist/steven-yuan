@@ -5,6 +5,7 @@ import Header from './components/Header/header'
 import Footer from './components/Footer/footer';
 import Terminal from './components/Terminal/terminal';
 import About from './components/About/about';
+import Projects from './components/Projects/projects'
 import Cat from './components/Cat/cat'
 
 import {
@@ -31,6 +32,10 @@ class App extends React.Component {
 
             <Route path="/about">
               <About />
+            </Route>
+
+            <Route path="/projects">
+              <Projects />
             </Route>
 
             <Route path="/cats">
