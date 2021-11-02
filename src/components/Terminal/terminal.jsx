@@ -49,7 +49,8 @@ class Terminal extends React.Component {
     }
     render(){
         return (
-            <div tabIndex="-1" onKeyDown={this.handleKeyDown} className='terminal'>
+            <div tabIndex="0" onKeyDown={this.handleKeyDown} className='terminal'>
+                <div className='terminal_container'>
                     <div className='header_container'>
                         <Stack
                             direction="row"
@@ -187,6 +188,7 @@ class Terminal extends React.Component {
                             }
                         </Stack>
                     </div>   
+                    </div>
             </div>
         )
     }

@@ -7,8 +7,20 @@
     max-width: 80vw;
     text-align: center;
     padding: 0 20px;
+    margin: 20px 0 20px 0;
 }
 .cat_title {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.cat_img {
+    margin: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.cat_img :hover {
+    margin-bottom: 30px;
+    transform: scale(1.05); 
 }

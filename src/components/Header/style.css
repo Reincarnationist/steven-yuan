@@ -92,6 +92,11 @@
 .cat:visited {
     color: pink;
 }
-
+.header_links{
+    color: #171923;
+}
+.header_links:visited{
+    color: #171923;
+}
 
   

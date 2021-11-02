@@ -34,7 +34,7 @@ const Cat = () => {
             <div className ="cat_title">
                 <span className='cat_title_inner'>
                     Below are the cats that lived (Mimi, Juzi, Naonao, Biball) and currently living(Susu) in my house.<br/>
-                    Some are my friend/cousin's cats that were staying with me for a short time, some were giving away due to moving(regretted).<br/><br/>
+                    Some are my friend/cousin's cats that were staying with me for a short time, some were giving away due to moving.<br/><br/>
                     </span>
                     <span style={{fontWeight: 600}}> I Love Them All. </span>
                 </div>
@@ -44,13 +44,13 @@ const Cat = () => {
             switch(key[0]){
                 case 'm':
                     return(
-                        <Grid item xs={4}>
-                            <figure key={index}>
+                        <Grid item xs={4} key={index}>
+                            <figure className='cat_img'>
                                 <img
                                     src={images[key].default}
                                     onClick={() => openImageViewer(index)}
                                     width="100%"
-                                    style={{ margin: "2px", cursor: 'pointer' }}
+                                    style={{transition: "all 0.5s ease-in-out"}}
                                     alt="Smart Mimi"
                                 />
                                 <figcaption style={{textAlign: 'center'}}>Smart Mimi</figcaption>
@@ -59,13 +59,13 @@ const Cat = () => {
                     )
                 case 'j':
                     return(
-                        <Grid item xs={4}>
-                            <figure key={index}>
+                        <Grid item xs={4} key={index}>
+                            <figure className='cat_img'>
                             <img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
-                                style={{ margin: "2px" }}
+                                style={{transition: "all 0.5s ease-in-out"}}
                                 alt="Juzi, silly but cute"
                             />
                             <figcaption style={{textAlign: 'center'}}>Juzi, silly but cute</figcaption>
@@ -76,13 +76,13 @@ const Cat = () => {
                     
                 case 'n':
                     return(
-                        <Grid item xs={4}>
-                            <figure key={index}>
+                        <Grid item xs={4} key={index}>
+                            <figure className='cat_img'>
                             <img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
-                                style={{ margin: "2px" }}
+                                style={{transition: "all 0.5s ease-in-out"}}
                                 alt="Big Naonao"
                             />
                             <figcaption style={{textAlign: 'center'}}>Big Naonao</figcaption>
@@ -91,13 +91,13 @@ const Cat = () => {
                         )
                 case 'b':
                     return(
-                        <Grid item xs={4}>
-                            <figure key={index}>
+                        <Grid item xs={4} key={index}>
+                            <figure className='cat_img'>
                             <img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
-                                style={{ margin: "2px" }}
+                                style={{transition: "all 0.5s ease-in-out"}}
                                 alt="Dull Biball"
                             />
                             <figcaption style={{textAlign: 'center'}}>Dull Biball</figcaption>
@@ -106,13 +106,13 @@ const Cat = () => {
                     )
                 case 's':
                     return(
-                        <Grid item xs={4}>
-                            <figure key={index}>
+                        <Grid item xs={4} key={index}>
+                            <figure className='cat_img'>
                             <img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
-                                style={{ margin: "2px" }}
+                                style={{transition: "all 0.5s ease-in-out"}}
                                 alt="Playful Susu"
                             />
                             <figcaption style={{textAlign: 'center'}}>Playful Susu</figcaption>

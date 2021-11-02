@@ -1,11 +1,11 @@
 .footer {
     display: flex;
     flex-direction: column;
-    flex: 1;
     align-items: center;
     justify-content: flex-end;
     padding: 20px 10px;
-    color: #999;
+    max-height: 100px;
+    background-color: #F7FAFC;
     z-index: 1; 
     
 }

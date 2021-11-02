@@ -4,6 +4,7 @@ import BGA from './components/BackGroundAnimation/bg'
 import Header from './components/Header/header'
 import Footer from './components/Footer/footer';
 import Terminal from './components/Terminal/terminal';
+import About from './components/About/about';
 import Cat from './components/Cat/cat'
 
 import {
@@ -27,7 +28,11 @@ class App extends React.Component {
             <Route exact path="/">
               <Terminal />
             </Route>
-            
+
+            <Route path="/about">
+              <About />
+            </Route>
+
             <Route path="/cats">
               <Cat />
             </Route>
