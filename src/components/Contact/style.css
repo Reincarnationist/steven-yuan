@@ -1,0 +1,27 @@
+.contact_container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 70vw;
+    align-content: center;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+.contact_links {
+    background: var(--chakra-colors-blackAlpha-100);
+    border-radius: 999px;
+    height: 4rem;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+    color: black;
+}
+.contact_links:hover {
+    transform: scale(1.1, 1.1);
+}
+.contact_container:visited {
+    color: black;
+}

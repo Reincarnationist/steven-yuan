@@ -24,7 +24,7 @@ class About extends React.Component {
                     <p className='intro_inner'>I graduatd from UofT MCS (Mathematics, Computer Science & Statistics) department in November 2021.
                         Here on my website, you can look through the <Link className= 'link' to="/projects">projects </Link> 
                         I have worked on and browse my lovely <Link className= 'link' to="/cats">cats' photos</Link>.
-                        Also, you can see my resume and reach out to me through email if interested.</p>
+                        Also, you can see my resume and reach out to me through <Link className= 'link' to="/contact">contact</Link> if interested.</p>
                     <Button variant="contained" size="large" style={{backgroundColor: '#2bae66'}} href=''>View My Resume</Button>
                     </div>
                 </div>
