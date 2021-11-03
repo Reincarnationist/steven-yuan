@@ -1,7 +1,10 @@
 {
   "name": "personal_website",
   "author": "Ruizhe(Steven) Yuan",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.9.0"
+  },
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.5.0",
