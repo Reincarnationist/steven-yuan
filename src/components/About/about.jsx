@@ -21,7 +21,7 @@ class About extends React.Component {
                     </div>
                 <div className='intro'>
                     <h1 style={{fontWeight: 700, fontSize: '4rem', margin: '0 10px 10px 0', color: '#f5bd69'}}>Hi, I'm Steven!</h1>
-                    <p className='intro_inner'>I graduatd from UofT MCS (Mathematics, Computer Science & Statistics) department in November 2021.
+                    <p className='intro_inner'>I graduated from UofT MCS (Mathematics, Computer Science & Statistics) department in November 2021.
                         Here on my website, you can look through the <Link className= 'link' to="/projects">projects </Link> 
                         I have worked on and browse my lovely <Link className= 'link' to="/cats">cats' photos</Link>.
                         Also, you can see my resume and reach out to me through <Link className= 'link' to="/contact">contact</Link> if interested.</p>
