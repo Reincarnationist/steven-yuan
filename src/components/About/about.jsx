@@ -25,7 +25,14 @@ class About extends React.Component {
                         Here on my website, you can look through the <Link className= 'link' to="/projects">projects </Link> 
                         I have worked on and browse my lovely <Link className= 'link' to="/cats">cats' photos</Link>.
                         Also, you can see my resume and reach out to me through <Link className= 'link' to="/contact">contact</Link> if interested.</p>
-                    <Button variant="contained" size="large" style={{backgroundColor: '#2bae66'}} href=''>View My Resume</Button>
+                    <Button 
+                    variant="contained" 
+                    size="large" 
+                    style={{backgroundColor: '#2bae66'}} 
+                    href='https://drive.google.com/file/d/12m1a0EsaEH8qiqeup7PRW8XSpbx7d7Vk/view?usp=sharing'
+                    target='_blank'
+                    rel='noreferrer'
+                    >View My Resume</Button>
                     </div>
                 </div>
             <div className='education_container'>
