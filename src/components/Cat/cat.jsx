@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState, useCallback } from "react";
 import './style.css';
+
+import Img from "react-cool-img";
 import ImageViewer from 'react-simple-image-viewer';
 import Grid from '@mui/material/Grid';
 
@@ -46,7 +48,7 @@ const Cat = () => {
                     return(
                         <Grid item xs={4} key={index}>
                             <figure className='cat_img'>
-                                <img
+                                <Img
                                     src={images[key].default}
                                     onClick={() => openImageViewer(index)}
                                     width="100%"
@@ -61,7 +63,7 @@ const Cat = () => {
                     return(
                         <Grid item xs={4} key={index}>
                             <figure className='cat_img'>
-                            <img
+                            <Img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
@@ -78,7 +80,7 @@ const Cat = () => {
                     return(
                         <Grid item xs={4} key={index}>
                             <figure className='cat_img'>
-                            <img
+                            <Img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
@@ -93,7 +95,7 @@ const Cat = () => {
                     return(
                         <Grid item xs={4} key={index}>
                             <figure className='cat_img'>
-                            <img
+                            <Img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"
@@ -108,7 +110,7 @@ const Cat = () => {
                     return(
                         <Grid item xs={4} key={index}>
                             <figure className='cat_img'>
-                            <img
+                            <Img
                                 src={images[key].default}
                                 onClick={() => openImageViewer(index)}
                                 width="100%"

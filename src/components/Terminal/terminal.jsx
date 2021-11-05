@@ -47,9 +47,18 @@ class Terminal extends React.Component {
             },8000)
         }
     }
+
+    componentDidMount(){
+        this._isMounted = true;
+        document.addEventListener("keydown", this.handleKeyDown);
+      }
+      componentWillUnmount(){
+        this._isMounted = false;
+        document.removeEventListener("keydown", this.handleKeyDown);
+      }
     render(){
         return (
-            <div tabIndex="0" onKeyDown={this.handleKeyDown} className='terminal'>
+            <div className='terminal'>
                 <div className='terminal_container'>
                     <div className='header_container'>
                         <Stack
