@@ -91,7 +91,7 @@ class About extends React.Component {
                 </span>
                 </div>
             <div className='cert_container'>
-                <h2 style={{textAlign:'center'}}> Certificates </h2>
+                <h2 style={{textAlign:'center'}}> Weightless Certificates </h2>
                 <Grid container spacing={2} style={{textAlign:'center'}}>
                     <Grid item xs={4} key={0}>
                         <a
