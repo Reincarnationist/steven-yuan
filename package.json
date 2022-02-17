@@ -1,7 +1,7 @@
 {
   "name": "personal_website",
   "author": "Ruizhe(Steven) Yuan",
-  "homepage": "https://Reincarnationist.github.io/steven-yuan.com",
+  "homepage": "https://Reincarnationist.github.io",
   "version": "1.0.0",
   "engines": {
     "node": "16.9.0"
