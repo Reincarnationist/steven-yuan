@@ -29,7 +29,7 @@ class About extends React.Component {
                     variant="contained" 
                     size="large" 
                     style={{backgroundColor: '#2bae66'}} 
-                    href='https://drive.google.com/file/d/1zRLErhm02ZP4qurRRa_XyinRbpwLJYHc/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1LCSTE52sHUAnzIDOQ0UdvvoRmST_036q/view?usp=sharing'
                     target='_blank'
                     rel='noreferrer'
                     >View My Resume</Button>
@@ -83,8 +83,9 @@ class About extends React.Component {
                     <span>
                         <h3 className='uoft_box_title'>Donghai Securities</h3>
                         <p style={{fontStyle: 'italic'}}>Data Analyst Intern</p>
-                        <p> - Research and develop the possibility to store and manipulate data using Redis for Financial Technology Department.<br/>
-                            - Analyze data given by the department to make predictions for finance needs.
+                        <p> - Perform in-depth analysis on the models under development and directly support and assist the duties of the internal mentor.<br/>
+                            - Researched the possibility to store and manipulate data using Redis for Financial Technology Department.
+							- Analyzed data given by the department to make predictions for finance needs.
                             </p>
                     </span>
                     <p style={{minWidth: 200, fontStyle: 'italic', flex: 1, textAlign: 'right'}}>May 2019 - July 2019</p>
