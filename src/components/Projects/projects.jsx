@@ -160,7 +160,23 @@ function Projects() {
                         </Grid>
                     </TabPanel>
                     <TabPanel value={value} index={2}>
-                        Coming Soon.
+					<Grid container spacing={4}>
+                        <Grid item xs={6} key={0}>
+                        <a 
+                        className='project_card' 
+                        href='https://github.com/Reincarnationist/Memory_gallery' 
+                        target='_blank'
+                        rel="noreferrer"
+                        >
+                            <span style={{flexGrow:1}}>
+                                <h3 className='project_title'>Memory-Gallery</h3>
+                                <p style={{fontStyle: 'italic', textAlign:'left'}}>A photo sharing website developed using React.js and Django Rest Framework.</p>
+                            </span>
+                            <span className='project_type' style={{flex: 1, textAlign: 'right', color:'black', backgroundColor: '#c6f6d5'}}>Website</span>
+                        </a>
+                            </Grid>
+ 
+                        </Grid>
                     </TabPanel>
                     </Box>
                 </div>
