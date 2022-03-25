@@ -29,7 +29,7 @@ class About extends React.Component {
                     variant="contained" 
                     size="large" 
                     style={{backgroundColor: '#2bae66'}} 
-                    href='https://drive.google.com/file/d/1Uu7JBPBGXdBkJRyme52eBx1C3YyWdVqF/view?usp=sharing'
+                    href='https://drive.google.com/file/d/1KsSGE95iwbvS57BmqKP-qTX0afBVvuWs/view?usp=sharing'
                     target='_blank'
                     rel='noreferrer'
                     >View My Resume</Button>
